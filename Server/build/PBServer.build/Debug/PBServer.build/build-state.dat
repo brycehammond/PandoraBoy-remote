@@ -1,0 +1,1033 @@
+TPBServer
+v7
+r0
+t320136486.175723
+cCheck dependencies
+cProcessInfoPlistFile /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Info.plist PBServer-Info.plist
+cCpResource build/Debug/PBServer.app/Contents/Resources/volume_up.applescript scripts/volume_up.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/volume_down.applescript scripts/volume_down.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/pause_play.applescript scripts/pause_play.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/next_track.applescript scripts/next_track.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/next_station.applescript scripts/next_station.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/previous_station.applescript scripts/previous_station.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/thumbs_up.applescript scripts/thumbs_up.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/thumbs_down.applescript scripts/thumbs_down.applescript
+cCpResource build/Debug/PBServer.app/Contents/Resources/status_info.applescript scripts/status_info.applescript
+cCopyStringsFile /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch.gch PBServer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch.gch PBServer_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/main.o /Users/bryce/PandoraServer/trunk/Server/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraBoyProxy.o /Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraStatus.o /Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ServerManager.o /Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSObject+SBJSON.o /Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSString+SBJSON.o /Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonBase.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonParser.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonWriter.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServerAppDelegate.o /Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/hmac_sha2.o /Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/sha2.o /Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SignedAwsSearchRequest.o /Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMBase64.o /Users/bryce/PandoraServer/trunk/Server/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSData+zlib.o /Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSString+URLArguments.o /Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/AsyncSocket.o /Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ArtworkRetriever.o /Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSData+Base64.o /Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer normal x86_64
+cTouch /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityMacros.h
+c000000004A11A9B30000000000006724
+t1242671539
+s26404
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004BBD2CC60000000000001533
+t1270688966
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004BBD2D1D000000000000307F
+t1270689053
+s12415
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004C2399440000000000005414
+t1277401412
+s21524
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004C23994800000000000059BC
+t1277401416
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004BBD306500000000000102A5
+t1270689893
+s66213
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib
+c000000004CAA740A0000000000005D2C
+t1286239242
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/bryce/PandoraServer/trunk/AsyncSocket/AsyncSocket.h
+c000000004D64A848000000000000724F
+t1298442312
+s29263
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/Common/NSData+Base64.h
+c000000004D64A849000000000000015B
+t1298442313
+s347
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/Common/PandoraStatus.h
+c000000004D64A8BD00000000000003B2
+t1298442429
+s946
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/JSON/NSObject+SBJSON.h
+c000000004D64A849000000000000085F
+t1298442313
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/JSON/NSString+SBJSON.h
+c000000004D64A84900000000000007F0
+t1298442313
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/JSON/SBJsonBase.h
+c000000004D64A8490000000000000B82
+t1298442313
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/JSON/SBJsonParser.h
+c000000004D64A8490000000000000C8F
+t1298442313
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/bryce/PandoraServer/trunk/JSON/SBJsonWriter.h
+c000000004D64A84900000000000011D9
+t1298442313
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.h
+c000000004D64A848000000000000724F
+t1298442312
+s29263
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m
+c000000004D64A848000000000001B541
+t1298442312
+s111937
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/../Common/Constants.h
+c000000004D64ACB30000000000000255
+t1298443443
+s597
+
+N/Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.h
+c000000004D64A849000000000000015B
+t1298442313
+s347
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m
+c000000004D64A8490000000000001235
+t1298442313
+s4661
+i"NSData+Base64.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m
+c000000004D64A8BD0000000000000BC2
+t1298442429
+s3010
+i"PandoraStatus.h"
+i"JSON.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/JSON.h
+c000000004D64A8490000000000000B43
+t1298442313
+s2883
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m
+c000000004D64A849000000000000077D
+t1298442313
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m
+c000000004D64A849000000000000075D
+t1298442313
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m
+c000000004D64A8490000000000000AC1
+t1298442313
+s2753
+i"SBJsonBase.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m
+c000000004D64A8490000000000003B7A
+t1298442313
+s15226
+i"SBJsonParser.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m
+c000000004D64A84900000000000020D8
+t1298442313
+s8408
+i"SBJsonWriter.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.h
+c000000004D64AD810000000000000284
+t1298443649
+s644
+i<Foundation/Foundation.h>
+i"PandoraStatus.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m
+c000000004D64AD730000000000000C54
+t1298443635
+s3156
+i"ArtworkRetriever.h"
+i"SignedAwsSearchRequest.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.h
+c000000004D64A8BD00000000000002E0
+t1298442429
+s736
+i<Cocoa/Cocoa.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m
+c000000004D64A8BD00000000000011DF
+t1298442429
+s4575
+i"PandoraBoyProxy.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.h
+c000000004D64AB9D00000000000002CC
+t1298443165
+s716
+i<Foundation/Foundation.h>
+i"ArtworkRetriever.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m
+c000000004D64AB900000000000001171
+t1298443152
+s4465
+i"ServerManager.h"
+i"AsyncSocket.h"
+i"PandoraBoyProxy.h"
+i"PandoraStatus.h"
+i"Constants.h"
+i"JSON.h"
+i"NSData+Base64.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/English.lproj/InfoPlist.strings
+c000000004D64A848000000000000002D
+t1298442312
+s45
+
+N/Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib
+c000000004D64A8480000000000030EE6
+t1298442312
+s200422
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMBase64.h
+c000000004D64A848000000000000157A
+t1298442312
+s5498
+i<Foundation/Foundation.h>
+i"GTMDefines.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMBase64.m
+c000000004D64A848000000000000629A
+t1298442312
+s25242
+i"GTMBase64.h"
+i"GTMDefines.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMDefines.h
+c000000004D64A8480000000000002645
+t1298442312
+s9797
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMGarbageCollection.h
+c000000004D64A8480000000000000AFF
+t1298442312
+s2815
+i<Foundation/Foundation.h>
+i"GTMDefines.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.h
+c000000004D64A8480000000000000CEE
+t1298442312
+s3310
+i<Foundation/Foundation.h>
+i"GTMDefines.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m
+c000000004D64A84800000000000024C5
+t1298442312
+s9413
+i"GTMNSData+zlib.h"
+i<zlib.h>
+i"GTMDefines.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.h
+c000000004D64A8480000000000000610
+t1298442312
+s1552
+i<Foundation/Foundation.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m
+c000000004D64A84800000000000006F5
+t1298442312
+s1781
+i"GTMNSString+URLArguments.h"
+i"GTMGarbageCollection.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.h
+c000000004D64ABA20000000000000446
+t1298443170
+s1094
+i<Cocoa/Cocoa.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m
+c000000004D64ABA20000000000000D5E
+t1298443170
+s3422
+i"PBServerAppDelegate.h"
+i"PandoraBoyProxy.h"
+i"PandoraStatus.h"
+i"ServerManager.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/PBServer_Prefix.pch
+c000000004D64ADA000000000000000AA
+t1298443680
+s170
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.h
+c000000004D64A848000000000000072F
+t1298442312
+s1839
+i<Cocoa/Cocoa.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m
+c000000004D64A8480000000000000F21
+t1298442312
+s3873
+i"SignedAwsSearchRequest.h"
+i"GTMNSString+URLArguments.h"
+i"GTMNSData+zlib.h"
+i"GTMBase64.h"
+i"hmac_sha2.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app
+t1298443686
+s102
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Info.plist
+t1298443652
+s922
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer
+t1298443686
+s271936
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/PkgInfo
+t1298443652
+s8
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1298443653
+s92
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/MainMenu.nib
+t1298443653
+s37079
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/next_station.applescript
+t1298443652
+s239
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/next_track.applescript
+t1298443652
+s214
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/pause_play.applescript
+t1298443652
+s213
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/previous_station.applescript
+t1298443652
+s243
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/status_info.applescript
+t1298443652
+s804
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/thumbs_down.applescript
+t1298443652
+s215
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/thumbs_up.applescript
+t1298443652
+s213
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/volume_down.applescript
+t1298443652
+s216
+
+N/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/volume_up.applescript
+t1298443652
+s216
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ArtworkRetriever.o
+t1298443685
+s23016
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/AsyncSocket.o
+t1298443686
+s220224
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMBase64.o
+t1298443685
+s33596
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSData+zlib.o
+t1298443685
+s22196
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSString+URLArguments.o
+t1298443685
+s11920
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSData+Base64.o
+t1298443685
+s13788
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSObject+SBJSON.o
+t1298443685
+s8120
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSString+SBJSON.o
+t1298443685
+s8012
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServer.LinkFileList
+c000000004D64AD8400000000000008EB
+t1298443652
+s2283
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServerAppDelegate.o
+t1298443685
+s43352
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraBoyProxy.o
+t1298443685
+s23424
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraStatus.o
+t1298443685
+s29240
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonBase.o
+t1298443685
+s15384
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonParser.o
+t1298443685
+s39040
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonWriter.o
+t1298443685
+s30688
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ServerManager.o
+t1298443685
+s37164
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SignedAwsSearchRequest.o
+t1298443685
+s32088
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/hmac_sha2.o
+t1298443685
+s20548
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/main.o
+t1298443685
+s4992
+
+N/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/sha2.o
+t1298443685
+s21104
+
+N/Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c
+c000000004D64A8480000000000004935
+t1298442312
+s18741
+i<string.h>
+i"hmac_sha2.h"
+i<stdio.h>
+i<stdlib.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.h
+c000000004D64A8480000000000001532
+t1298442312
+s5426
+i"sha2.h"
+
+N/Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c
+c000000004D64A84800000000000080C1
+t1298442312
+s32961
+i<string.h>
+i"sha2.h"
+i<stdio.h>
+i<stdlib.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/hmac/sha2.h
+c000000004D64A8480000000000000EDD
+t1298442312
+s3805
+
+N/Users/bryce/PandoraServer/trunk/Server/main.m
+c000000004D64A8BD00000000000000C4
+t1298442429
+s196
+i<Cocoa/Cocoa.h>
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/next_station.applescript
+c000000004D64A84800000000000000EF
+t1298442312
+s239
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/next_track.applescript
+c000000004D64A84800000000000000D6
+t1298442312
+s214
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/pause_play.applescript
+c000000004D64A84800000000000000D5
+t1298442312
+s213
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/previous_station.applescript
+c000000004D64A84800000000000000F3
+t1298442312
+s243
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/status_info.applescript
+c000000004D64A8480000000000000324
+t1298442312
+s804
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_down.applescript
+c000000004D64A84800000000000000D7
+t1298442312
+s215
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_up.applescript
+c000000004D64A84800000000000000D5
+t1298442312
+s213
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/volume_down.applescript
+c000000004D64A84800000000000000D8
+t1298442312
+s216
+
+N/Users/bryce/PandoraServer/trunk/Server/scripts/volume_up.applescript
+c000000004D64A84800000000000000D8
+t1298442312
+s216
+
+N/var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch.gch
+t1298443685
+s54306608
+
+N/var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch.gch
+t1298443682
+s2195824
+
+NPBServer-Info.plist
+c000000004D64A8480000000000000404
+t1298442312
+s1028
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320136482#320136482#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ArtworkRetriever.o /Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.660676
+e320136485.805597
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ArtworkRetriever.o
+x/Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m320136485#320136485#0(0"0(0#0#58"/Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m8609343296#1505"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/ArtworkRetriever.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ArtworkRetriever.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/AsyncSocket.o /Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.620896
+e320136486.064444
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/AsyncSocket.o
+x/Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m320136485#320136486#0(0"0(0#0#68"/Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m8622705184#1510"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../AsyncSocket/AsyncSocket.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/AsyncSocket.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMBase64.o /Users/bryce/PandoraServer/trunk/Server/GTMBase64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.565976
+e320136485.762614
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMBase64.o
+x/Users/bryce/PandoraServer/trunk/Server/GTMBase64.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/bryce/PandoraServer/trunk/Server/GTMBase64.m320136485#320136485#0(0"0(0#0#51"/Users/bryce/PandoraServer/trunk/Server/GTMBase64.m8629116544#1491"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/GTMBase64.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMBase64.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSData+zlib.o /Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.587812
+e320136485.760563
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSData+zlib.o
+x/Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m320136485#320136485#0(0"0(0#0#56"/Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m8628428128#1501"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/GTMNSData+zlib.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSData+zlib.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSString+URLArguments.o /Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.606184
+e320136485.746858
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSString+URLArguments.o
+x/Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m320136485#320136485#0(0"0(0#0#66"/Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m8625526912#1521"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/GTMNSString+URLArguments.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/GTMNSString+URLArguments.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSData+Base64.o /Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.720909
+e320136485.835564
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSData+Base64.o
+x/Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m320136485#320136485#0(0"0(0#0#65"/Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m8605551168#1509"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../Common/NSData+Base64.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSData+Base64.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSObject+SBJSON.o /Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.369501
+e320136485.522059
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSObject+SBJSON.o
+x/Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m320136485#320136485#0(0"0(0#0#65"/Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m8600007040#1511"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../JSON/NSObject+SBJSON.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSObject+SBJSON.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSString+SBJSON.o /Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.370132
+e320136485.531374
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSString+SBJSON.o
+x/Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m320136485#320136485#0(0"0(0#0#65"/Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m8629195872#1511"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../JSON/NSString+SBJSON.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/NSString+SBJSON.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServerAppDelegate.o /Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.522454
+e320136485.720779
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServerAppDelegate.o
+x/Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m320136485#320136485#0(0"0(0#0#61"/Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m8630048224#1511"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/PBServerAppDelegate.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServerAppDelegate.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraBoyProxy.o /Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.367586
+e320136485.546576
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraBoyProxy.o
+x/Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m320136485#320136485#0(0"0(0#0#65"/Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m8610169056#1511"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/Classes/PandoraBoyProxy.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraBoyProxy.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraStatus.o /Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.368199
+e320136485.565853
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraStatus.o
+x/Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m320136485#320136485#0(0"0(0#0#65"/Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m8609381024#1509"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../Common/PandoraStatus.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PandoraStatus.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonBase.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.370883
+e320136485.524123
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonBase.o
+x/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m320136485#320136485#0(0"0(0#0#60"/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m8629957728#1501"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonBase.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonBase.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonParser.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.371929
+e320136485.606065
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonParser.o
+x/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m320136485#320136485#0(0"0(0#0#62"/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m8620399712#1505"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonParser.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonParser.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonWriter.o /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.504220
+e320136485.734145
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonWriter.o
+x/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m320136485#320136485#0(0"0(0#0#62"/Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m8630219616#1505"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/../JSON/SBJsonWriter.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SBJsonWriter.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ServerManager.o /Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.368819
+e320136485.587698
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ServerManager.o
+x/Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m320136485#320136485#0(0"0(0#0#63"/Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m8604833760#1507"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/Classes/ServerManager.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/ServerManager.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SignedAwsSearchRequest.o /Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.546698
+e320136485.762920
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SignedAwsSearchRequest.o
+x/Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m320136485#320136485#0(0"0(0#0#64"/Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m8629263936#1517"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/SignedAwsSearchRequest.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/SignedAwsSearchRequest.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/hmac_sha2.o /Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c normal x86_64 c com.apple.compilers.gcc.4_2
+s320136485.524245
+e320136485.620773
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/hmac_sha2.o
+x/Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c320136485#320136485#0(0"0(0#0#56"/Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c8629532288#1486"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/hmac/hmac_sha2.c -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/hmac_sha2.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/main.o /Users/bryce/PandoraServer/trunk/Server/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136485.366836
+e320136485.504089
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/main.o
+x/Users/bryce/PandoraServer/trunk/Server/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/bryce/PandoraServer/trunk/Server/main.m320136485#320136485#0(0"0(0#0#46"/Users/bryce/PandoraServer/trunk/Server/main.m8619849600#1481"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/main.m -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/sha2.o /Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c normal x86_64 c com.apple.compilers.gcc.4_2
+s320136485.531497
+e320136485.660540
+r1
+xCompileC
+xbuild/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/sha2.o
+x/Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c320136485#320136485#0(0"0(0#0#51"/Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c8629317344#1476"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -include /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch -c /Users/bryce/PandoraServer/trunk/Server/hmac/sha2.c -o /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/sha2.o0#
+
+CCompileXIB /Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib
+s320136452.981420
+e320136453.233936
+r1
+xCompileXIB
+x/Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib320136452#320136453#0(0"0(0#0#66"/Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib8629338656#368"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/MainMenu.nib /Users/bryce/PandoraServer/trunk/Server/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s320136452.979154
+e320136453.022808
+r1
+xCopyStringsFile
+x/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings320136452#320136453#0(0"0(0#0#71"/Users/bryce/PandoraServer/trunk/Server/English.lproj/InfoPlist.strings8620922272#368"    cd /Users/bryce/PandoraServer/trunk/Server    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/next_station.applescript scripts/next_station.applescript
+s320136452.976022
+e320136452.982098
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/next_station.applescript
+xscripts/next_station.applescript
+lSLF07#2@37"Copy scripts/next_station.applescript320136452#320136452#0(0"0(0#0#72"/Users/bryce/PandoraServer/trunk/Server/scripts/next_station.applescript8630030848#366"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/next_station.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/next_track.applescript scripts/next_track.applescript
+s320136452.975592
+e320136452.981988
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/next_track.applescript
+xscripts/next_track.applescript
+lSLF07#2@35"Copy scripts/next_track.applescript320136452#320136452#0(0"0(0#0#70"/Users/bryce/PandoraServer/trunk/Server/scripts/next_track.applescript8630096192#364"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/next_track.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/pause_play.applescript scripts/pause_play.applescript
+s320136452.975162
+e320136452.981017
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/pause_play.applescript
+xscripts/pause_play.applescript
+lSLF07#2@35"Copy scripts/pause_play.applescript320136452#320136452#0(0"0(0#0#70"/Users/bryce/PandoraServer/trunk/Server/scripts/pause_play.applescript8630160448#364"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/pause_play.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/previous_station.applescript scripts/previous_station.applescript
+s320136452.976500
+e320136452.982193
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/previous_station.applescript
+xscripts/previous_station.applescript
+lSLF07#2@41"Copy scripts/previous_station.applescript320136452#320136452#0(0"0(0#0#76"/Users/bryce/PandoraServer/trunk/Server/scripts/previous_station.applescript8629965312#370"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/previous_station.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/status_info.applescript scripts/status_info.applescript
+s320136452.978489
+e320136452.983140
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/status_info.applescript
+xscripts/status_info.applescript
+lSLF07#2@36"Copy scripts/status_info.applescript320136452#320136452#0(0"0(0#0#71"/Users/bryce/PandoraServer/trunk/Server/scripts/status_info.applescript8629410112#365"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/status_info.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/thumbs_down.applescript scripts/thumbs_down.applescript
+s320136452.977834
+e320136452.983329
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/thumbs_down.applescript
+xscripts/thumbs_down.applescript
+lSLF07#2@36"Copy scripts/thumbs_down.applescript320136452#320136452#0(0"0(0#0#71"/Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_down.applescript8629706560#365"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_down.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/thumbs_up.applescript scripts/thumbs_up.applescript
+s320136452.977185
+e320136452.982326
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/thumbs_up.applescript
+xscripts/thumbs_up.applescript
+lSLF07#2@34"Copy scripts/thumbs_up.applescript320136452#320136452#0(0"0(0#0#69"/Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_up.applescript8629753248#363"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/thumbs_up.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/volume_down.applescript scripts/volume_down.applescript
+s320136452.974715
+e320136452.980779
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/volume_down.applescript
+xscripts/volume_down.applescript
+lSLF07#2@36"Copy scripts/volume_down.applescript320136452#320136452#0(0"0(0#0#71"/Users/bryce/PandoraServer/trunk/Server/scripts/volume_down.applescript8630177056#365"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/volume_down.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CCpResource build/Debug/PBServer.app/Contents/Resources/volume_up.applescript scripts/volume_up.applescript
+s320136452.972699
+e320136452.981320
+r1
+xCpResource
+xbuild/Debug/PBServer.app/Contents/Resources/volume_up.applescript
+xscripts/volume_up.applescript
+lSLF07#2@34"Copy scripts/volume_up.applescript320136452#320136452#0(0"0(0#0#69"/Users/bryce/PandoraServer/trunk/Server/scripts/volume_up.applescript8630245408#363"    cd /Users/bryce/PandoraServer/trunk/Server    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/bryce/PandoraServer/trunk/Server/scripts/volume_up.applescript /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Resources0#
+
+CLd /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer normal x86_64
+s320136486.064525
+e320136486.172069
+r1
+xLd
+x/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer
+xnormal
+xx86_64
+lSLF07#2@93"Link /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer320136486#320136486#0(0"0(0#0#0"8625374144#556"    cd /Users/bryce/PandoraServer/trunk/Server    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bryce/PandoraServer/trunk/Server/build/Debug -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -filelist /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/Objects-normal/x86_64/PBServer.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -lz -o /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/MacOS/PBServer0#
+
+CProcessInfoPlistFile /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Info.plist PBServer-Info.plist
+s320136452.962925
+e320136452.972611
+r1
+xProcessInfoPlistFile
+x/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Info.plist
+xPBServer-Info.plist
+lSLF07#2@27"Process PBServer-Info.plist320136452#320136452#0(0"0(0#0#59"/Users/bryce/PandoraServer/trunk/Server/PBServer-Info.plist31525614006435952#316"    cd /Users/bryce/PandoraServer/trunk/Server    builtin-infoPlistUtility PBServer-Info.plist -genpkginfo /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch.gch PBServer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320136482.321112
+e320136485.366682
+r1
+xProcessPCH
+x/var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch.gch
+xPBServer_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PBServer_Prefix.pch320136482#320136485#0(0"0(0#0#59"/Users/bryce/PandoraServer/trunk/Server/PBServer_Prefix.pch8621967968#1385"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -c /Users/bryce/PandoraServer/trunk/Server/PBServer_Prefix.pch -o /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ddnqlndqpxlauifrvrwghtqpyqgg/PBServer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch.gch PBServer_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s320136482.321755
+e320136483.359099
+r1
+xProcessPCH
+x/var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch.gch
+xPBServer_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PBServer_Prefix.pch320136482#320136483#0(0"0(0#0#59"/Users/bryce/PandoraServer/trunk/Server/PBServer_Prefix.pch8621829664#1375"    cd /Users/bryce/PandoraServer/trunk/Server    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-generated-files.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-own-target-headers.hmap -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-all-target-headers.hmap -iquote /Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/PBServer-project-headers.hmap -F/Users/bryce/PandoraServer/trunk/Server/build/Debug -I/Users/bryce/PandoraServer/trunk/Server/build/Debug/include -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources/x86_64 -I/Users/bryce/PandoraServer/trunk/Server/build/PBServer.build/Debug/PBServer.build/DerivedSources -c /Users/bryce/PandoraServer/trunk/Server/PBServer_Prefix.pch -o /var/folders/bx/bxccfFPmHACNO2LJIne0DU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PBServer_Prefix-ganqkxfjjzcmqkeofujaxoaihbac/PBServer_Prefix.pch.gch0#
+
+CTouch /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app
+s320136486.172150
+e320136486.175637
+r1
+xTouch
+x/Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app
+lSLF07#2@70"Touch /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app320136486#320136486#0(0"0(0#0#0"8629960512#134"    cd /Users/bryce/PandoraServer/trunk/Server    /usr/bin/touch -c /Users/bryce/PandoraServer/trunk/Server/build/Debug/PBServer.app0#
+
